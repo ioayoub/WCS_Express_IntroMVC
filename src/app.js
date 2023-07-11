@@ -6,7 +6,7 @@ const app = express()
 
 const port = process.env.APP_PORT || 6000
 
-const appRouter = require('./router')
+const appRouter = require('./router.js')
 
 app.use("/api", appRouter)
 
